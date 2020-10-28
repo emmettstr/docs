@@ -6,19 +6,19 @@ udver: '2'
 
 # UD for Naija <span class="flagspan"><img class="flag" src="../../flags/svg/NG.svg" /></span>
 
-This UD treebank is built from the transcription of audio recordings made in 2017 for the ANR project NaijaSyncor. This oral corpus is characterised by occasional codeswitching to English and native Nigerian languages. Sections codeswitched to English have been annotated following the UD English conventions. Below are a few elements concerning the Naija sections. 
+This UD treebank is built from the transcription of audio recordings made in 2017 for the ANR project NaijaSyncor. This oral corpus is characterised by occasional codeswitching to English as well as several native Nigerian languages including Yoruba, Hausa, and Igbo. Sections codeswitched to English have been annotated following the UD English conventions. The following contains a number of elements concerning the Naija sections. 
 
 ## Tokenization and Word Segmentation
 
- * Words are delimited by whitespace or punctuation. 
+ * Words are delimited by whitespaces or punctuation marks. 
  * Multiword tokens are not used in Naija.
 
 ## Morphology
 
 ### Tags
 
- * Naija uses all 16 of the universal tags (except SYM, not relevant for oral data).
- * The words tagged PART are …
+ * Naija uses all 16 of the universal tags (with the exception of SYM, which is not relevant for oral data).
+ * The most frequent words tagged as PART include the negative marker no, the emphasis marker o, and the focalizer sef.
  * Auxiliaries (AUX) are particles that precede the invariable lexical form of the verb.
 	* The copulas na, be and dey
 	* The past auxiliary bin.
@@ -36,7 +36,7 @@ This UD treebank is built from the transcription of audio recordings made in 201
 
 ## Syntax
 
-The annotation is done in SUD (Surface-Syntactic Universal Dependencies) with an automatic translation into UD. SUD uses the same tagset and features as UD but has a different distribution-based dependency structure.
+The annotation is carried out in SUD (Surface-Syntactic Universal Dependencies) with an automatic translation into UD. SUD uses the same tagset and features as UD but has a different distribution-based dependency structure.
 
 - We distinguish arguments, modifiers, and peripherals in the `obl` relation: `obl:arg`, `obl:mod` `obl:periph`
 - We used `conj:coord` instead of `coord`.
