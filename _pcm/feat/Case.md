@@ -13,7 +13,7 @@ udver: '2'
 </tr>
 </table>
 
-In Naija, `Case` is an inflectional feature of [pronouns](pcm-pos/PRON).
+In Naija `Case` is an inflectional feature of [pronouns](pcm-pos/PRON).
 
 Case helps specify the role of the noun phrase in the sentence. 
 
